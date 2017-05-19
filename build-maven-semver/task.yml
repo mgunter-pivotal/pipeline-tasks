@@ -5,8 +5,8 @@ platform: linux
 image_resource:
  type: docker-image
  source:
-    repository: patrickcrocker/maven-resource
-    tag: 1.3.2-rc.5
+    repository: patrickcrocker/spring-intitializd
+    tag: spring-boot-1.5.2.RELEASE-1.0.0-rc.6
 
 params:
   MAVEN_OPTS:
