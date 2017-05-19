@@ -3,11 +3,11 @@
 platform: linux
 
 image_resource:
- type: docker-image
- source:
-    repository: patrickcrocker/spring-intitializd
-    tag: spring-boot-1.5.2.RELEASE-1.0.0-rc.6
-
+  type: docker-image
+  source:
+    repository: openjdk
+    tag: '8-jdk-alpine'
+    
 params:
   MAVEN_OPTS:
   MAVEN_CONFIG:
