@@ -6,7 +6,7 @@ image_resource:
  type: docker-image
  source:
     repository: patrickcrocker/maven-resource
-    tag: 2.0.0
+    tag: 1.3.2-rc.5
 
 params:
   MAVEN_OPTS:
