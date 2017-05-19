@@ -4,7 +4,7 @@ platform: linux
 
 image_resource:
  type: docker-image
-  source:
+ source:
     repository: patrickcrocker/cf-cli-resource
     tag: 2.0.0
 
